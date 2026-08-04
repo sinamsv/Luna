@@ -16,13 +16,18 @@ already knows how to do (write correct code):
 
 ## What lives where
 
-- **Dataset** — hosted entirely on the HuggingFace Hub: **[link to HF dataset repo]**.
+- **Dataset** — hosted entirely on the HuggingFace Hub:
+  [huggingface.co/datasets/sinamsv00/Luna](https://huggingface.co/datasets/sinamsv00/Luna).
   Raw records, the ChatML conversion script, and the dataset card (schema,
   extraction methodology, source projects) all live there. This GitHub repo
   does **not** store or mirror the dataset.
 - **This repo (GitHub)** — the Google Colab notebook(s) for turning that
   Hub-hosted dataset into a trained model, plus the fine-tuning
   documentation and any training-time code.
+
+This project is fully open-source end-to-end: dataset, scripts, notebooks,
+fine-tuning documentation, and eventually the **trained model weights
+themselves** will all be published publicly.
 
 ```
 .
@@ -37,10 +42,10 @@ already knows how to do (write correct code):
 
 ## Source projects being mined for training data
 
-- **[Nebula](https://github.com/sinamsv/Nebula)** — Rust/Python AI assistant with Web, Telegram, and Discord
+- **[Nebula](#)** — Rust/Python AI assistant with Web, Telegram, and Discord
   adapters over a shared core (auth, memory, coin/usage limits, AI provider
   routing).
-- **[NumRS](https://github.com/sinamsv/NumRS)** — Rust linear algebra library.
+- **[NumRS](#)** — Rust linear algebra library.
 
 Real bugs, refactors, feature additions, and multi-file changes from these
 projects' commit history and code structure are extracted into training
